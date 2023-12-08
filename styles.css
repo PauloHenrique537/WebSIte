@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    font-size: 1.5em;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px; /* 93.75% */
+    text-transform: uppercase;
+}
+
+.contato  {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+/* Estilos para tornar o menu responsivo */
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    main{
+        width: 100%;
+        flex-direction: column;
+    }
+    .destaques, .destaque,.destaque-texto{
+        flex-direction: column;
+
+        align-content: center;
+
+    }
+
+    .destaque img{
+        width: 50%;
+    }
+
+
+
+}
+
+/* Main*/
+
+.hosting{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-paragraf-hosting{
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.main-paragrafo{
+    color: rgba(214, 212, 212, 0.88);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.destaques{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+.destaque{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+.destaque-texto h1 {
+    width: 100%;
+    font-size: 40px;
+    color:  #2E2E2E;
+    font-family: Poppins;
+    font-style: normal;
+   font-weight: 700;
+   line-height: 77.5px; /* 121.094% */
+   
+
+}
+
+.destaque-texto p{
+    color:  #808080;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.8px;
+    width: 90%;
+}
+
+.butao-destaque{
+    display: flex;
+    width: 160px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+.bt-button{
+    border-radius: 8px;
+    background: #B00000;
+    box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30);
+    color:  #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    cursor: pointer;
+}
+
+.button-transparent{
+    border-radius: 8px;
+    color:  #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    cursor: pointer;
+}
+
+.destaque img{
+   width: 100%;
+    flex-shrink: 0;
+}
+
+    
+
